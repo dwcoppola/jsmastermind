@@ -1,0 +1,62 @@
+#game-board {
+  width: 400px;
+  height: 615px;
+  background-color: #d0f8dd;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#random-code {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+button {
+  height: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+#user-area {
+  display: flex;
+  flex-direction: column;
+}
+.peg {
+  height: 40px;
+  width: 40px;
+  background-color: gray;
+  margin: 5px;
+  border-radius: 20px;
+}
+#feedback {
+  height: 40px;
+  width: 40px;
+  background-color: #d0f8dd;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+#top-feedback, #bottom-feedback {
+  display: flex;
+  flex-direction: row;
+}
+.feedback-peg {
+  margin: 1px;
+  width: 18px;
+  height: 18px;
+  border-radius: 10px;
+  background-color: gray;
+}
+#ng-container {
+  text-align: center;
+  margin-top: 10px;
+}
