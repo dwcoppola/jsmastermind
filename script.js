@@ -186,8 +186,6 @@ enableButton = (rowNumber) => {
   }
 }
 startNewGame = () => {
-  disableAllEvents();
-  hideCodemakerLine();
   generateRandomCode();
   enableButton(0);
   enablePickColor(0);
